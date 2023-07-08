@@ -1,0 +1,55 @@
+git status
+git branch
+git clone
+git add filename
+git add file name file name
+git add .
+git add *
+git add p* a*
+git add -A
+git ad --all
+git stage filename << to add particular file
+git stage filename filename <<< to add multiple files
+git stage .<< to add normal and hidden files 
+git stage * << to add only normal files
+git stage --all << to add all files at a time
+git stage -A << to add all files at a time
+git stage p* A* << to add specific character files 
+git reset << to reset all files at a time
+git reset filename << to call back particular file from staging to wd
+git rest filename filename <<to call back multiple files from staging to wd
+git reset . <<< to call back all normal and hidden files from staging to wd
+git reset * << to call back normal files from staging to working directory
+git reset p* a* << to call back specifi character files from staging to working directory
+git commit -m "message"<<< to commit all files at a time
+git commit -m "message" file name <<<<<< to commit particular file at a time
+git commit -m "message" filename file name << to commit multiple files at a time
+git commit -am "message" it will commit all modified and deleted files from stgaing and working directory
+git show << it will show the commited files along with data
+git log << it will show latest commited files
+git status -s << to see which file is in modified and which one is in staging
+rm filename << to delete a file
+git reset --softHEAD~ << to call back latest committed files from commiting area to staging
+git reset @~ <<<to call back files from commiting area to working directory
+git reset --hardHEAD <<< it will delete all latest committed files from commiting area and files from staging except untracked files
+git diff <<to see what is diff in file
+git diff filename << to see what is diff in particular file 
+git add -u << to add only modified and deleted files from wd to staging
+git branch << to see how many braches we have
+git branch new branchname << to create branch name
+git branch -m oldbranchname newbranchname <<< to rename the branch name
+git branch -d branchname << to delete particular branch
+git checkout branchname << to shift to particular branch name
+git checkout -b branch name << to create a branch and shift to that branch ata atime
+git stash << it is used to add files to stash memory
+git stash list << it will show the list of the stash id's
+git stash show stash id << to show content in particular id
+git merge source branch << to see committed files in both branches
+git stash pop << it will call back last id from stash memory to staging
+git stash pop stash id << it will call back particular id from stash memory to staging
+git stash drop<< it will delete last id
+git stash drop stash id << to delete particular if from stash memory
+git stash clear <<< to clear all ids in stash memory
+
+
+
